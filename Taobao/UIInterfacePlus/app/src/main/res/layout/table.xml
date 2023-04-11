@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:showDividers="middle|beginning|end"
+    android:divider="@drawable/table_v_divider">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:showDividers="middle|beginning|end"
+        android:divider="@drawable/table_h_divider">
+
+        <ImageView
+            android:layout_width="219dp"
+            android:layout_height="100dp"
+            android:src="@drawable/juhuasuan" />
+
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="100dp"
+            android:src="@drawable/meirihaodian" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:showDividers="middle|beginning|end"
+        android:divider="@drawable/table_h_divider">
+
+        <ImageView
+            android:layout_width="219dp"
+            android:layout_height="100dp"
+            android:src="@drawable/youhaohuo" />
+
+        <FrameLayout
+            android:layout_width="192dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="192dp"
+                android:layout_height="100dp"
+                android:stateListAnimator="@null"
+                android:src="@drawable/zhuanmiaoguo" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top|right"
+                android:layout_gravity="right|top"
+                android:layout_marginRight="3dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#EE3B3B"/>
+        </FrameLayout>
+
+    </TableRow>
+
+</TableLayout>

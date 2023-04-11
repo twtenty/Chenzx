@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="37dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp">
+
+    <FrameLayout
+        android:id="@+id/hongbao"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="left">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/border_circle"
+            android:stateListAnimator="@null"
+            android:text="  签到  "
+            android:textAlignment="textEnd"
+            android:textColor="#FF6633"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:src="@drawable/top_hongbao" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/dingyue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/hongbao"
+        android:text="订阅"
+        android:textSize="25sp"></TextView>
+
+    <TextView
+        android:id="@+id/tuijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/dingyue"
+        android:text="推荐"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="30sp"></TextView>
+
+    <FrameLayout
+        android:id="@+id/huiyuanma"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_toRightOf="@+id/tuijian"
+        android:layout_marginLeft="30dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/border_circle"
+            android:stateListAnimator="@null"
+            android:text="  会员码  "
+            android:textAlignment="textEnd"
+            android:textColor="#FF6633"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:src="@drawable/top_huiyuanma" />
+    </FrameLayout>
+</RelativeLayout>

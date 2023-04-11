@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">UI Interface Plus</string>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <string-array name="site">
+        <item>郑州</item>
+        <item>鹤壁</item>
+        <item>开封</item>
+        <item>洛阳</item>
+        <item>平顶山</item>
+        <item>安阳</item>
+        <item>新乡</item>
+        <item>焦作</item>
+        <item>濮阳</item>
+        <item>许昌</item>
+        <item>漯河</item>
+        <item>三门峡</item>
+        <item>南阳</item>
+        <item>商丘</item>
+        <item>信阳</item>
+        <item>周口</item>
+        <item>驻马店</item>
+    </string-array>
+    <string name="done">0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

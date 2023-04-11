@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="250dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginLeft="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tianmaoshuangoneone"/>
+
+    <ViewFlipper
+        android:id="@+id/vf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="5000"
+        android:inAnimation="@anim/anim_come_in"
+        android:outAnimation="@anim/anim_get_out">
+
+        <LinearLayout
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/border_search"
+                    android:textColor="#F76"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:text="  双11优惠  "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#EE2C2C"
+                    android:textStyle="bold"
+                    android:text="牛奶优选9.9元起。\n剃须刀终于降价了。" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/border_search"
+                    android:textColor="#F76"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:text="  双11优惠  "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#EE2C2C"
+                    android:textStyle="bold"
+                    android:text="护肤儿童肌买二送一。开学全场买200减100。" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/border_search"
+                    android:textColor="#F76"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:text="  双11优惠  "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#EE2C2C"
+                    android:textStyle="bold"
+                    android:text="这夹克穿起来很有范。这款面膜实在太好用了。" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/border_search"
+                    android:textColor="#F76"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:text="  双11优惠  "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#EE2C2C"
+                    android:textStyle="bold"
+                    android:text="宅男の福利。土肥圆也有春天。" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/border_search"
+                    android:textColor="#F76"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:text="  双11优惠  "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#EE2C2C"
+                    android:textStyle="bold"
+                    android:text="藏在皮肤里的惊天秘密。6个不为人知的护肤秘诀。" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ViewFlipper>
+
+</LinearLayout>

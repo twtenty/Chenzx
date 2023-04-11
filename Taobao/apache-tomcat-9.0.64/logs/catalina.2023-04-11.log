@@ -1,0 +1,42 @@
+11-Apr-2023 14:04:31.012 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.64
+11-Apr-2023 14:04:31.017 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 2 2022 19:08:46 UTC
+11-Apr-2023 14:04:31.021 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.64.0
+11-Apr-2023 14:04:31.023 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+11-Apr-2023 14:04:31.023 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+11-Apr-2023 14:04:31.024 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+11-Apr-2023 14:04:31.024 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jre
+11-Apr-2023 14:04:31.024 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_351-b10
+11-Apr-2023 14:04:31.025 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+11-Apr-2023 14:04:31.025 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64
+11-Apr-2023 14:04:31.025 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64
+11-Apr-2023 14:04:31.025 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\conf\logging.properties
+11-Apr-2023 14:04:31.026 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Apr-2023 14:04:31.026 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+11-Apr-2023 14:04:31.026 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Apr-2023 14:04:31.027 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+11-Apr-2023 14:04:31.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64
+11-Apr-2023 14:04:31.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64
+11-Apr-2023 14:04:31.028 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\temp
+11-Apr-2023 14:04:31.034 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.33]。
+11-Apr-2023 14:04:31.042 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+11-Apr-2023 14:04:31.043 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+11-Apr-2023 14:04:31.067 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1o  3 May 2022]
+11-Apr-2023 14:04:31.472 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+11-Apr-2023 14:04:31.501 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[743]毫秒内初始化
+11-Apr-2023 14:04:31.552 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+11-Apr-2023 14:04:31.552 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.64]
+11-Apr-2023 14:04:31.569 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\docs]
+11-Apr-2023 14:04:32.258 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[275]毫秒。
+11-Apr-2023 14:04:32.288 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\docs]的部署已在[718]毫秒内完成
+11-Apr-2023 14:04:32.292 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\examples]
+11-Apr-2023 14:04:32.619 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\examples]的部署已在[327]毫秒内完成
+11-Apr-2023 14:04:32.629 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\host-manager]
+11-Apr-2023 14:04:32.672 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\host-manager]的部署已在[43]毫秒内完成
+11-Apr-2023 14:04:32.679 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\manager]
+11-Apr-2023 14:04:32.713 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\manager]的部署已在[34]毫秒内完成
+11-Apr-2023 14:04:32.725 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\ROOT]
+11-Apr-2023 14:04:33.354 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+11-Apr-2023 14:04:33.396 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\Administrator\Desktop\chen\Android\qimo\程序_202034070235张雪晨\Taobao\apache-tomcat-9.0.64\webapps\ROOT]的部署已在[671]毫秒内完成
+11-Apr-2023 14:04:33.399 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+11-Apr-2023 14:04:33.422 信息 [main] org.apache.catalina.startup.Catalina.start [1920]毫秒后服务器启动
+11-Apr-2023 14:11:07.003 信息 [Thread-3] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]

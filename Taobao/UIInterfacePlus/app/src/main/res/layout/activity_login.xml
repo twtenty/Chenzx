@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/login_pwdtext"-->
+<!--        android:layout_width="104dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="    密    码:"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/login_id"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/login_password"-->
+<!--        android:layout_width="254dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_span="2"-->
+<!--        android:hint="请输入6位密码"-->
+<!--        android:inputType="textPassword"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/login_pwdtext"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/login_id"-->
+<!--        app:layout_constraintVertical_bias="0.003"></EditText>-->
+
+
+    <ImageView
+        android:id="@+id/login_taobao"
+        android:layout_width="152dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/taobao_login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/login_nicheng"
+            android:layout_width="104dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="    呢    称:"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/login_nc"
+            android:layout_width="154dp"
+            android:layout_height="60dp"
+            android:layout_span="2"
+            android:hint="请输入昵称">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/login_name"
+            android:layout_width="104dp"
+            android:layout_height="61dp"
+
+            android:gravity="center"
+            android:text="     用户名:"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/login_id"
+            android:layout_width="154dp"
+            android:layout_height="60dp"
+            android:layout_span="2"
+            android:hint="请输入登录账号" />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginLeft="140dp">
+
+       <EditText
+           android:id="@+id/login_VerCodeEt"
+           android:layout_width="154dp"
+           android:layout_height="60dp"
+           android:layout_span="2"
+           android:hint="请输入验证码" />
+
+       <Button
+           android:id="@+id/login_VerCodeBtn"
+           android:layout_width="100dp"
+           android:layout_height="50dp"
+           android:text="获取验证码" />
+
+   </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="145dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border_sousuo"
+        android:layout_gravity="center"
+        android:text="登录"
+        android:textColor="#FFF"
+        android:textSize="25sp" />
+
+
+</LinearLayout>
